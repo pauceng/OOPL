@@ -49,18 +49,12 @@ namespace _Calculator
         //İşlem zamanı işlem karakterlerinin doğruluğunu ascii değerlerine göre kontrol eden method
         public static bool IsOperation(string input)
         {
-            int countTrue = 0, countFalse = 0;
             for (int i = 0; i < input.Length; i++)
             {
                 if (input[0] == 47 || input[0] == 43 || input[0] == 45 || input[0] == 42)
-                    countTrue++;
-                else
-                    countFalse++;
+                    return true;
             }
-            if (countTrue == 1 && countFalse == 0)
-                return true;
-            else
-                return false;
+            return false;
         }
         //control sınıfından erişilen ve E,e ve h,H karekterlerinin doğruluğunu kontrol eder
         static bool yesNo(string input)
@@ -69,14 +63,9 @@ namespace _Calculator
             for (int i = 0; i < input.Length; i++)
             {
                 if (input[0] == 101 || input[0] == 69 || input[0] == 104 || input[0] == 72)
-                    countTrue++;
-                else 
-                    countFalse++;
+                    return true;
             }
-            if (countTrue ==1 && countFalse == 0)
-                return true;
-            else
-                return false;
+            return false;
         }
         //Menu methodu, Kullanıcinin devam etme isteyine göre evet hayır durumunu sorgular
         public static void Menu()
