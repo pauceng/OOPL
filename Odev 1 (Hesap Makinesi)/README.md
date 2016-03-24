@@ -4,8 +4,8 @@ Bu ödevinizde küçük bir hesap makinesi programı yazacaksınız. Kullanıcı
 
 **_Örn:_**
 
-	* Birinci sayiyi giriniz: 3
-	* Islemi giriniz(+, -, *, /): *
-	* Ikinci sayiyi giriniz: 5
-	* Sonuc= 15
-	* Devam etmek istiyor musunuz?(e/h):h
+* Birinci sayiyi giriniz: 3
+* Islemi giriniz(+, -, *, /): *
+* Ikinci sayiyi giriniz: 5
+* Sonuc= 15
+* Devam etmek istiyor musunuz?(e/h):h
