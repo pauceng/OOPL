@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,6 +18,7 @@ namespace _Calculator
             else
                 return false;
         }
+        
         //Klavyeden okunan verinin eksi sayi olup olmadığını kontrol eden method
         public static bool IsMinuceNumber(string input)
         {
@@ -67,6 +68,7 @@ namespace _Calculator
             }
             return false;
         }
+        //Menu
         //Menu methodu, Kullanıcinin devam etme isteyine göre evet hayır durumunu sorgular
         public static void Menu()
         {
@@ -87,7 +89,6 @@ namespace _Calculator
             {
                 Console.WriteLine("\n\t\t\t\tKolay Gelsin Hocam... :)");
                 Environment.Exit(1);
-                
             }
         }
     }
