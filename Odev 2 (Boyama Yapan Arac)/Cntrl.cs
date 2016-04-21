@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _11253804_HW02
+namespace _HW02
 {
     static class Cntrl
     {
