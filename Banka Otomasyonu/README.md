@@ -35,12 +35,12 @@ ve miktarı gibi bilgiler ve bu işlemlerin tarihleri görüntülenmelidir.
 
 #### Giriş Paneli
 
-![](/img/giris.gif)
+![](/Banka%20Otomasyonu/img/giris.gif)
 
 #### Kullanıcı Paneli
 
-![](/img/kullanici.gif)
+![](/Banka%20Otomasyonu/img/kullanici.gif)
 
 #### Müşteri Paneli
 
-![](/img/musteri.gif) 
+![](/Banka%20Otomasyonu/img/musteri.gif) 
